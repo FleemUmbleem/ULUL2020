@@ -1,0 +1,23 @@
+﻿@model ULULFinal.Models.Clip
+@{
+    ViewBag.Title = "SubmitVideo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Submit Video</h2>
+
+@Html.Encode(ViewData["Message"])
+<div class="formBox">
+    @using (@Html.BeginForm("Submit", "ULUL", FormMethod.Post))
+    {
+        <fieldset>
+            <div>
+                @Html.LabelFor(u => u.Code):<br />
+                @Html.ValidationMessageFor(u => u.Code)
+                @Html.EditorFor(u => u.Code)<br />
+            </div>
+
+            <input type="submit" value="Submit" />
+        </fieldset>}
+    @{Html.EndForm();}
+</div>

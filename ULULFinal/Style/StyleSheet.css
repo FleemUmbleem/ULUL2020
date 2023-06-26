@@ -1,0 +1,63 @@
+﻿body {
+    background-color: #f0f0ff;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-inverse {
+    background-color: #9146FF;
+    font-family: Calibri;
+    font-size: 20px;
+    color: #f0f0ff;
+}
+
+.navbar-inverse .navbar-brand {
+    font-family: Calibri;
+    color: #f0f0ff;
+    font-size: 35px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-family: Calibri;
+    color: #f0f0ff;
+}
+
+.formBox {
+    border: 2px solid #0014a5;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.title {
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Cambria';
+    font-size: 30px;
+}
+
+.feedbackText {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    width: 1350px;
+}
+
+#topper {
+    color: #0014a5;
+    text-align: center;
+}
+
+.table {
+    width: 1280px;
+}
